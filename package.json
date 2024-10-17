@@ -1,0 +1,26 @@
+{
+  "name": "discord-example-app",
+  "version": "1.0.0",
+  "main": "htbBot.js",
+  "scripts": {
+    "start": "node htbBot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord/discord-example-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/discord/discord-example-app/issues"
+  },
+  "homepage": "https://github.com/discord/discord-example-app#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security"
+  },
+  "description": ""
+}
