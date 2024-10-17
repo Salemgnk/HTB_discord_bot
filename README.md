@@ -47,7 +47,7 @@ The bot will assign roles based on the HTB rank of the user. The ranks are:
 
 2. Install dependencies:
    ```bash
-   npm install
+   npm install discord.js axios dotenv
    ```
 
 3. Create a `.env` file in the root directory with your Discord bot token and HackTheBox API token:
@@ -58,7 +58,7 @@ The bot will assign roles based on the HTB rank of the user. The ranks are:
 
 4. Run the bot:
    ```bash
-   node bot.js
+   node HtbBot.js
    ```
 
 ## Contribution
