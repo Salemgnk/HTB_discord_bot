@@ -1,4 +1,21 @@
 {
+  "name": "epihack-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord pour l'association Epihack - Interface avec HackTheBox",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "hackthebox",
+    "epihack",
+    "cybersecurity"
+  ],
+  "author": "Salem",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.11.0",
     "discord.js": "^14.22.1",
